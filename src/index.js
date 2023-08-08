@@ -1,13 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import App from './App';
+import { InputText } from './App';
+import { InputeSelectBox } from './App';
+import { InputRadio }from './App';
+import { InputCheckBox } from './App';
+import { SampleComponent, SampleComponent2 } from './App';
+//import {Timer} from '.App';
+import { SampleComponent1, CountResult, Counter, Button, Counter2, Counter3 } from './App';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <InputText />
+    <InputeSelectBox />
+    <InputRadio />
+    <InputCheckBox />
+    <SampleComponent/>
+    <SampleComponent1 />
+    <CountResult/>
+    <Counter/>
+    <Button/>
+    <Counter2/>
+    <Counter3/>
+    <SampleComponent2/>
   </React.StrictMode>
 );
 

@@ -1,6 +1,20 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
 }
+
+.App > * {
+  width: 40%;  /* 例として80%の幅を持たせる */
+  margin-bottom: 5px;
+}
+
+h1, p {
+  font-size: 20px;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -12,6 +26,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
+
 
 .App-header {
   background-color: #282c34;
